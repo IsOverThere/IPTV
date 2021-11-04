@@ -1,1 +1,3 @@
+#!/bin/bash
 sed -i -r 's/rtp:\/\/(.*)/http:\/\/192.168.50.1:23234\/rtp\/\1/g' IPTV-Unicom.m3u
+#wget -O - https://xxx | sed -r 's/rtp:\/\/(.*)/http:\/\/192.168.50.1:23234\/rtp\/\1/g' > Beijing-Unicom-IPTV.m3u
